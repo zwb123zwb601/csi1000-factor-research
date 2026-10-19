@@ -1,0 +1,31 @@
+# 数据
+data/
+*.parquet
+*.csv.bz2
+!examples/sample_data/*.csv
+
+# 输出
+output/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时
+_tmp/
+*.tmp
